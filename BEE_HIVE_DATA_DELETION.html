@@ -22,13 +22,14 @@
 
 <p><strong>App:</strong> Beehive Jam (Bee Hive), package <code>com.foursagez.beehive</code><br>
 <strong>Publisher:</strong> MACLEPRO INC<br>
-<strong>Developer:</strong> 4 Sagez Studios Pvt. Ltd.</p>
+<strong>Developer:</strong> 4 Sagez Studios Pvt. Ltd.<br>
+<strong>Last updated:</strong> 23 September 2026</p>
 
-<p>Beehive Jam has no accounts and no player servers. Everything the game stores about you lives in a save file on your own device, and the only third party that receives any data is Google AdMob, for advertising. This page explains how to delete each of those.</p>
+<p>Beehive Jam has no accounts of its own and no player servers. The game stores your progress in a save file on your device. If you use cloud save, a copy of your progress is also kept in your own Google Play Games account (Android) or Game Center / iCloud account (iOS). The only third party that receives data for its own purposes is Google AdMob, for advertising. This page explains how to delete each of those.</p>
 
 <h2>1. Delete the data stored on your device</h2>
 
-<p>Uninstalling Beehive Jam deletes the complete save file and the local event log. There is no copy anywhere else, so nothing remains after uninstalling.</p>
+<p>Uninstalling Beehive Jam deletes the save file and the local event log from your device.</p>
 
 <ol>
   <li>Open your device's <strong>Settings</strong> app.</li>
@@ -36,9 +37,34 @@
   <li>Tap <strong>Uninstall</strong>.</li>
 </ol>
 
-<p>To delete your data while keeping the game installed, choose <strong>Storage</strong> on the same screen and tap <strong>Clear storage</strong> (or <strong>Clear data</strong>). The game will start fresh the next time you open it.</p>
+<p>To delete your data while keeping the game installed, choose <strong>Storage</strong> on the same screen and tap <strong>Clear storage</strong> (or <strong>Clear data</strong>).</p>
 
-<h2>2. Delete or reset advertising data held by Google</h2>
+<p><strong>If you use cloud save,</strong> uninstalling or clearing storage does not delete the cloud copy, and the game will restore your progress from it the next time you sign in. To remove your progress completely, also follow step 2.</p>
+
+<h2>2. Delete your cloud save copy</h2>
+
+<p>If you have never signed in to Google Play Games or Game Center with Beehive Jam, there is no cloud copy and you can skip this step.</p>
+
+<p><strong>Android (Google Play Games):</strong> the copy is kept in a hidden app-data folder in your Google Drive.</p>
+
+<ol>
+  <li>On a computer, open <a href="https://drive.google.com">Google Drive</a> and sign in with the Google account you use for Play Games.</li>
+  <li>Click the <strong>Settings</strong> (gear) icon, then <strong>Settings &rarr; Manage apps</strong>.</li>
+  <li>Find <strong>Beehive Jam</strong>, click <strong>Options</strong> and choose <strong>Delete hidden app data</strong>.</li>
+</ol>
+
+<p>Alternatively, deleting your Play Games profile (Google Play Games settings &rarr; <strong>Delete Play Games account &amp; data</strong>) removes the copy together with your data for every other game.</p>
+
+<p><strong>iOS and iPadOS (Game Center / iCloud):</strong></p>
+
+<ol>
+  <li>Open <strong>Settings &rarr; [your name] &rarr; iCloud &rarr; Manage Account Storage</strong> (or <strong>Manage Storage</strong>).</li>
+  <li>Choose <strong>Beehive Jam</strong> and delete its data.</li>
+</ol>
+
+<p>Delete the cloud copy <em>before</em> reinstalling the game. If the game is still installed and signed in when you delete it, it will upload your current progress again the next time you play; clear the game's storage first (step 1), then delete the cloud copy.</p>
+
+<h2>3. Delete or reset advertising data held by Google</h2>
 
 <p>Google AdMob may hold your device's advertising ID and ad interaction data. Beehive Jam cannot delete that for you, but your device controls it directly.</p>
 
@@ -49,9 +75,9 @@
 
 <p>You can also withdraw advertising consent inside the game at <strong>Settings &rarr; Privacy options</strong>. For rights over data Google holds, see <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</p>
 
-<h2>3. Purchase records</h2>
+<h2>4. Purchase records</h2>
 
-<p>Your purchase history is held by Google Play under Google's own terms and is tied to your Google account, not to the game. Beehive Jam keeps only a local copy, which is deleted with the save file in step 1.</p>
+<p>Your purchase history is held by Google Play (or Apple) under their own terms and is tied to your store account, not to the game. Beehive Jam keeps only a local copy, which is deleted with the save file in step 1. Purchase records are never included in the cloud save copy.</p>
 
 <h2>What is deleted and what is kept</h2>
 
@@ -61,18 +87,22 @@
     <tr><th>Data</th><th>Where it is</th><th>Deleted by</th><th>Retention after deletion</th></tr>
   </thead>
   <tbody>
-    <tr><td>Game progress, currencies, helpers, settings, consent choice, install identifier, local event log</td><td>Your device only</td><td>Uninstalling or clearing storage</td><td>None. Deleted immediately.</td></tr>
-    <tr><td>Local purchase record</td><td>Your device only</td><td>Uninstalling or clearing storage</td><td>None. Google Play keeps its own purchase history under Google's terms.</td></tr>
-    <tr><td>Advertising ID and ad interaction data</td><td>Google AdMob</td><td>Deleting or resetting the advertising ID in device settings</td><td>Retained by Google under Google's policies.</td></tr>
+    <tr><td>Game progress, currencies, helpers, settings, consent choice, install identifier, local event log</td><td>Your device</td><td>Uninstalling or clearing storage (step 1)</td><td>None on the device. Deleted immediately.</td></tr>
+    <tr><td>Cloud save copy of game progress, currencies, helpers, achievements and settings (only if you use cloud save)</td><td>Your Google Drive app-data folder (Android) or iCloud (iOS)</td><td>Deleting the hidden app data or iCloud data (step 2)</td><td>None kept by us. Google or Apple remove it under their own terms.</td></tr>
+    <tr><td>Local purchase record</td><td>Your device</td><td>Uninstalling or clearing storage (step 1)</td><td>None. Google Play or Apple keep their own purchase history under their terms.</td></tr>
+    <tr><td>Advertising ID and ad interaction data</td><td>Google AdMob</td><td>Deleting or resetting the advertising ID in device settings (step 3)</td><td>Retained by Google under Google's policies.</td></tr>
   </tbody>
 </table>
 </div>
 
-<p>We hold no data about you on any server, so there is nothing further for us to delete. If you would like help, or believe we hold something not listed here, contact us and we will respond within 30 days.</p>
+<p>We hold no data about you on any server, and we cannot access your cloud save copy, so there is nothing further for us to delete. If you would like help, or believe we hold something not listed here, contact us and we will respond within 30 days.</p>
 
 <h2>Contact</h2>
 
 <p>MACLEPRO INC<br>
+[STREET ADDRESS]<br>
+[CITY, STATE / REGION, POSTAL CODE]<br>
+[COUNTRY]<br>
 Email: <a href="mailto:sage@maclepro.in">sage@maclepro.in</a></p>
 
 <p>Full policy: <a href="BEE_HIVE_PRIVACY_POLICY.html">Beehive Jam Privacy Policy</a></p>
