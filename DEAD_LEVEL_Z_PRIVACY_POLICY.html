@@ -8,6 +8,7 @@
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #222; background: #fff; max-width: 820px; margin: 0 auto; padding: 24px 16px 48px; }
   h1 { font-size: 1.9em; margin-bottom: 0.4em; }
   h2 { font-size: 1.3em; margin-top: 1.8em; border-bottom: 1px solid #ddd; padding-bottom: 0.2em; }
+  h3 { font-size: 1.08em; margin-top: 1.4em; }
   code { background: #f3f3f3; padding: 0.1em 0.3em; border-radius: 3px; font-size: 0.95em; }
   table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.95em; }
   th, td { border: 1px solid #ccc; padding: 0.5em 0.6em; text-align: left; vertical-align: top; }
@@ -20,37 +21,61 @@
 
 <h1>Dead Level Z Privacy Policy</h1>
 
-<p><strong>Effective date:</strong> 16 September 2026<br>
+<p><strong>Effective date:</strong> 11 October 2026<br>
 <strong>Publisher:</strong> MACLEPRO INC ("we", "us")<br>
 <strong>Developer:</strong> 4 Sagez Studios Pvt. Ltd.<br>
 <strong>Applies to:</strong> the Dead Level Z game for Android (package <code>com.foursagez.deadlevelz</code>), for iOS and iPadOS (bundle <code>com.foursagez.deadlevelz</code>), and the Windows and Steam Deck builds</p>
 
-<p>This policy explains what information Dead Level Z handles, why, and what choices you have. Dead Level Z is designed to keep your data on your device. We operate no servers and hold no player accounts. Where a Google or Apple service is involved, we say so plainly below. We do not sell your personal data.</p>
+<p>This policy explains what information Dead Level Z handles, why, and what choices you have. Dead Level Z is designed to keep your data on your device. We operate no servers and hold no player accounts. Where a Google, Apple or Epic Games service is involved, we say so plainly below. We do not sell your personal data.</p>
 
 <h2>1. Summary</h2>
 
 <ul>
-  <li>Dead Level Z does not require an account, has no sign-in, and has no servers of its own.</li>
-  <li>Your progress, settings, gems, unlocked characters and purchases are stored in a save file on your device. There is no cloud save.</li>
+  <li>Dead Level Z does not require an account, asks you to sign in to nothing, and has no servers of its own.</li>
+  <li>Your progress, settings, gems, unlocked characters and purchases are stored in a save file on your device. If you choose to turn on cloud save, a copy is kept in your own Google Play Games or Apple iCloud account.</li>
   <li>The game shows advertising through Google AdMob. AdMob uses your device's advertising identifier and related data. Buying "Remove Ads" stops interstitial ads; rewarded ads are only ever shown when you choose to watch one.</li>
   <li>In-app purchases are processed by Google Play Billing on Android and by Apple's App Store on iOS. We never see your payment details.</li>
-  <li>Optional co-op play connects your device directly to a friend's device on the same local network. No traffic passes through us.</li>
+  <li>Optional co-op play connects your device directly to other players' devices: on the same local network, or online through Epic Online Services, which creates an anonymous player identifier for your device. No game traffic passes through us.</li>
   <li>Dead Level Z contains no analytics, crash-reporting, attribution or social SDKs, and no chat.</li>
 </ul>
 
 <h2>2. Information stored on your device</h2>
 
-<p>Dead Level Z keeps a local save file containing your campaign progress, settings, gem balance, unlocked characters and upgrades, daily-reward timestamps and a record of your purchases. The file is stored in the app's private storage and never leaves your device. Uninstalling the game, or clearing its data, deletes it.</p>
+<p>Dead Level Z keeps a local save file containing your campaign progress, settings, gem balance, unlocked characters and upgrades, daily-reward timestamps and a record of your purchases. The file is stored in the app's private storage. It leaves your device only if you turn on cloud save (section 3). Uninstalling the game, or clearing its data, deletes it.</p>
 
-<h2>3. Local co-op play</h2>
+<h2>3. Optional cloud save</h2>
 
-<p>Dead Level Z offers optional co-op for up to four players. One player hosts on their device and friends join by entering the host's local network address. The connection is made directly between the players' devices over your local network; it does not go through any server operated by us or anyone else.</p>
+<p>You can choose to back up your progress so it carries over to a new device. On Android this uses <strong>Google Play Games</strong> saved games, which you sign in to from the game's settings; on iOS it uses <strong>Game Center</strong> saved games, which use the Apple ID already on your device. Cloud save is off until you choose it, and the game plays the same without it.</p>
 
-<p>During a session, the following is exchanged between the participating devices only: the display name you type (up to 16 characters), the character you picked, and the gameplay data needed to keep everyone's game in sync (positions, actions and mission state). As with any direct connection, the other players' devices can see your device's local network address for the duration of the session. If the host sets a password, joiners prove they know it using a salted hash; the password itself is never sent. The link is encrypted with DTLS.</p>
+<p>When it is on, a copy of your gameplay progress is stored <strong>in your own account</strong>: in your Google Drive app-data folder on Android, or in your iCloud on iOS. It is stored by Google or Apple under their own privacy policies. The copy contains no payment information or purchase receipts (purchases are always restored from the store itself), and it is not sent to us; we cannot read it. You can delete it with the controls Google or Apple provide for that storage.</p>
 
-<p>Nothing from a co-op session is stored after it ends, other than your own progress in your own save file. Choose a display name you are comfortable showing to the people you play with.</p>
+<h2>4. Co-op play</h2>
 
-<h2>4. Advertising</h2>
+<p>Dead Level Z offers optional co-op and versus modes for up to four players. In every session one player's device hosts and the other players' devices connect to it. No session traffic passes through any server operated by us. There are two ways to connect.</p>
+
+<h3>Online co-op (Epic Online Services)</h3>
+
+<p>On Android and iOS, the <strong>Quick Match</strong>, <strong>Host a Room</strong> and <strong>Join Room</strong> options use <strong>Epic Online Services</strong>, provided by Epic Games, Inc., to find other players and connect you to them. Nothing is sent to Epic unless you use one of these options.</p>
+
+<ul>
+  <li><strong>Anonymous player identifier.</strong> The first time you play online, the game asks Epic to create an identifier for your device. No Epic account is needed and you are not asked to sign in. The same identifier is reused whenever you play online on that device. It is not linked to your name, email address, or Google or Apple account.</li>
+  <li><strong>Device description.</strong> When the identifier is created, the game tells Epic your device's operating system and model name (for example "Android Pixel 8").</li>
+  <li><strong>Session listing.</strong> So that players can find each other, the game publishes a short-lived listing on Epic's service with the host's player identifier, the game mode and, for a private room, its 6-character room code. The listing is removed when the session ends.</li>
+  <li><strong>Display name.</strong> The name of the operative you are playing (for example "Ryo Maverick"). There is no option to type your own name.</li>
+  <li><strong>Network connection.</strong> Epic's service sees your device's IP address when you connect, as any internet service does. Players are connected directly where possible, in which case the other players in your session can also see your IP address. Where a direct connection is not possible, Epic relays the traffic between players. Connections are encrypted.</li>
+</ul>
+
+<p>Epic processes this information under its own privacy policy: <a href="https://www.epicgames.com/site/en-US/privacypolicy">Epic Games Privacy Policy</a>. The Windows and Steam Deck builds do not include Epic Online Services and offer local network co-op only.</p>
+
+<h3>Local network co-op</h3>
+
+<p>You can also play with friends on the same local network: one player hosts and friends join by entering the host's local network address. The connection is made directly between the players' devices over your local network and does not go through any server operated by us or anyone else. As with any direct connection, the other players' devices can see your device's local network address for the duration of the session. If the host sets a password, joiners prove they know it using a salted hash; the password itself is never sent. The link is encrypted with DTLS.</p>
+
+<h3>What other players receive</h3>
+
+<p>In either kind of session, the following is exchanged between the participating devices: the name of the operative you are playing, the character and weapon you picked, your score, and the gameplay data needed to keep everyone's game in sync (positions, actions and mission state). Nothing from a co-op session is stored after it ends, other than your own progress in your own save file.</p>
+
+<h2>5. Advertising</h2>
 
 <p>Dead Level Z shows interstitial ads between levels and optional rewarded video ads, served by Google AdMob, part of Google LLC. To serve, measure and prevent fraud in those ads, AdMob may collect:</p>
 
@@ -63,7 +88,7 @@
 
 <p>This data is collected and shared with Google and, where permitted, with Google's advertising partners, for advertising and analytics purposes. Dead Level Z itself does not read or store any of it; we see only aggregated, non-identifying reports.</p>
 
-<p><strong>Your choices.</strong> On Android you can reset your advertising ID or opt out of ad personalisation under Settings &rarr; Google &rarr; Ads (on newer devices, Settings &rarr; Privacy &rarr; Ads). On iOS the system asks, through Apple's App Tracking Transparency prompt, whether Dead Level Z may track you across other apps; if you decline, AdMob does not receive your IDFA, and you can change the answer at any time under Settings &rarr; Privacy &amp; Security &rarr; Tracking. Where local law requires consent for personalised advertising, Google's tools honour the consent choices available on your device and in your region. Dead Level Z is fully playable without personalised ads.</p>
+<p><strong>Your choices.</strong> On Android you can reset your advertising ID or opt out of ad personalisation under Settings &rarr; Google &rarr; Ads (on newer devices, Settings &rarr; Privacy &rarr; Ads). On iOS the system asks, through Apple's App Tracking Transparency prompt, whether Dead Level Z may track you across other apps; if you decline, AdMob does not receive your IDFA, and you can change the answer at any time under Settings &rarr; Privacy &amp; Security &rarr; Tracking. Where local law requires consent for personalised advertising, the game shows Google's consent form before its first ad request, and a Privacy Options entry in the game's settings lets you change your choice at any time. Dead Level Z is fully playable without personalised ads.</p>
 
 <p><strong>Rewarded ads.</strong> A rewarded ad is only requested when you tap the option to watch one in exchange for gems. The game limits how many rewarded ads you can watch per day. You are never required to watch one.</p>
 
@@ -75,15 +100,15 @@
 
 <p>Google describes its own handling of this data at <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a>.</p>
 
-<h2>5. In-app purchases</h2>
+<h2>6. In-app purchases</h2>
 
-<p>Optional purchases (gem packs and the "Remove Ads" upgrade) are handled entirely by the store you bought the game from: Google Play Billing on Android, and Apple's App Store (StoreKit) on iOS. The store processes your payment and holds your payment details. Dead Level Z receives only a purchase record and the product identifier, which it uses to grant what you bought and to restore the "Remove Ads" upgrade on reinstall or on another device signed into the same Google account or Apple ID. We keep a record of purchases in the local save file for that purpose. Purchase history is not shared with anyone other than the store that processed it.</p>
+<p>Optional purchases (gem packs, the "Remove Ads" upgrade, the Starter Pack and the seasonal Commander's Pass) are handled entirely by the store you bought the game from: Google Play Billing on Android, and Apple's App Store (StoreKit) on iOS. The store processes your payment and holds your payment details. Dead Level Z receives only a purchase record and the product identifier, which it uses to grant what you bought and to restore one-time purchases ("Remove Ads", the Starter Pack and the Commander's Pass) on reinstall or on another device signed into the same Google account or Apple ID. We keep a record of purchases in the local save file for that purpose. Purchase history is not shared with anyone other than the store that processed it.</p>
 
-<h2>6. Data we do not collect</h2>
+<h2>7. Data we do not collect</h2>
 
-<p>Dead Level Z does not collect your name, email address, phone number, contacts, photos, precise location, microphone or camera data, or the contents of your files. It does not include analytics, crash-reporting, attribution or social SDKs, has no chat and no user-generated content beyond the co-op display name described in section 3, and sends no push notifications.</p>
+<p>Dead Level Z does not collect your name, email address, phone number, contacts, photos, precise location, microphone or camera data, or the contents of your files. It does not include analytics, crash-reporting, attribution or social SDKs, has no chat and no user-generated content, and sends no push notifications.</p>
 
-<h2>7. Data disclosure (Google Play Data safety and Apple App Privacy)</h2>
+<h2>8. Data disclosure (Google Play Data safety and Apple App Privacy)</h2>
 
 <p>Dead Level Z's data flows, as declared to both stores:</p>
 
@@ -97,43 +122,50 @@
     <tr><td>Device or other IDs (advertising identifier)</td><td>Google AdMob</td><td>Yes, with Google</td><td>Advertising, analytics</td></tr>
     <tr><td>App interactions (ad interactions)</td><td>Google AdMob</td><td>Yes, with Google</td><td>Advertising, analytics</td></tr>
     <tr><td>Crash logs, diagnostics and performance data about ads</td><td>Google AdMob</td><td>Yes, with Google</td><td>Advertising, analytics, app functionality</td></tr>
-    <tr><td>Co-op display name and character choice</td><td>Exchanged only between players' devices on the local network; not collected by us</td><td>No</td><td>App functionality (multiplayer)</td></tr>
+    <tr><td>Device or other IDs (anonymous online player identifier), device model</td><td>Epic Online Services, on our behalf, only when you play online</td><td>No</td><td>App functionality (online multiplayer)</td></tr>
+    <tr><td>Game progress (cloud save copy)</td><td>Stored in your own Google Play Games or iCloud account by Google or Apple, only if you turn on cloud save; not collected by us</td><td>No</td><td>App functionality (backup and restore)</td></tr>
+    <tr><td>Operative name, character choice and gameplay data</td><td>Exchanged only between the players' devices in a co-op session; not collected by us</td><td>No</td><td>App functionality (multiplayer)</td></tr>
   </tbody>
 </table>
 </div>
 
-<p>All data sent to Google's and Apple's services is encrypted in transit. Because we hold no personal data ourselves, the deletion routes are the ones in section 8.</p>
+<p>All data sent to Google's, Apple's and Epic's services is encrypted in transit. Because we hold no personal data ourselves, the deletion routes are the ones in section 9.</p>
 
-<h2>8. Retention and deletion</h2>
+<h2>9. Retention and deletion</h2>
 
 <ul>
   <li><strong>Local save file:</strong> kept until you clear the app's data or uninstall the game.</li>
-  <li><strong>Co-op session data:</strong> held in memory on the participating devices only and discarded when the session ends.</li>
+  <li><strong>Cloud save copy:</strong> kept in your own Google or Apple account until you delete it with the controls Google or Apple provide.</li>
+  <li><strong>Co-op session data:</strong> held in memory on the participating devices only and discarded when the session ends. Online session listings on Epic's service are removed when the session ends.</li>
+  <li><strong>Anonymous online player identifier:</strong> retained by Epic Games under Epic's policies. To ask for it to be deleted, contact us and we will pass your request to Epic, or contact Epic directly using the details in its privacy policy.</li>
   <li><strong>Purchase records:</strong> kept by Google Play or Apple under their own terms; the local copy is deleted with the save file.</li>
   <li><strong>Advertising data:</strong> retained by Google under Google's policies; you can reset your advertising ID (Android) or withdraw tracking permission (iOS) at any time.</li>
 </ul>
 
-<p>We hold no data about you that we could delete on request, but if you contact us we will help you find the right Google or Apple control.</p>
+<p>We hold no data about you on any server that we could delete on request, but if you contact us we will help you find the right Google, Apple or Epic control.</p>
 
-<h2>9. Children</h2>
+<h2>10. Children</h2>
 
 <p>Dead Level Z is a zombie survival shooter and is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information through the game, contact us and we will help you have it removed.</p>
 
-<h2>10. Security</h2>
+<h2>11. Security</h2>
 
-<p>Communication with Google's and Apple's services uses encrypted (HTTPS) connections, and co-op sessions are encrypted with DTLS. The local save file is stored in the app's private storage, which other apps cannot read on an unmodified device, and is integrity-sealed against casual editing.</p>
+<p>Communication with Google's, Apple's and Epic's services uses encrypted connections. Online co-op connections are encrypted by Epic Online Services, and local network co-op sessions are encrypted with DTLS. The local save file is stored in the app's private storage, which other apps cannot read on an unmodified device, and is integrity-sealed against casual editing.</p>
 
-<h2>11. International transfers</h2>
+<h2>12. International transfers</h2>
 
-<p>Google's and Apple's services may process data on servers outside your country, including the United States. Both maintain safeguards for such transfers as described in their privacy policies.</p>
+<p>Google's, Apple's and Epic Games' services may process data on servers outside your country, including the United States. Each maintains safeguards for such transfers as described in its privacy policy.</p>
 
-<h2>12. Changes to this policy</h2>
+<h2>13. Changes to this policy</h2>
 
 <p>We will post any changes to this page and update the effective date above. Material changes will also be noted in the game's Play Store and App Store listings.</p>
 
-<h2>13. Contact</h2>
+<h2>14. Contact</h2>
 
 <p>MACLEPRO INC<br>
+19 Boudinot Ln<br>
+Somerset, NJ 08873<br>
+United States of America<br>
 Email: <a href="mailto:sage@maclepro.in">sage@maclepro.in</a></p>
 
 <p>If you have a question about this policy or about your data, write to the address above and we will respond within 30 days.</p>
